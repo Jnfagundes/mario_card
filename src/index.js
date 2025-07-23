@@ -16,3 +16,13 @@ const player2 = {
 async function rollDice() {
     return Math.floor(Math.random() *6) + 1;
 };
+
+async function playRaceEngine(charactere1, charactere2) {
+    
+};
+
+(async function main() {
+    console.log(`Iniciando o jogo...🚗🚗. Corrida entre ${player1.NOME} e ${player2.NOME}\n`);
+    await playRaceEngine(player1, player2);
+})();
+
